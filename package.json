@@ -11,6 +11,7 @@
     "dev": "vite --port 5433",
     "preview": "vite preview",
     "lint": "eslint .",
+    "test": "vitest",
     "typecheck": "vue-tsc --noEmit"
   },
   "dependencies": {
