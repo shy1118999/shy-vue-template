@@ -2,9 +2,11 @@
  * @Author: shaohang-shy
  * @Date: 2022-08-10 19:13:08
  * @LastEditors: shaohang-shy
- * @LastEditTime: 2022-08-10 22:08:41
+ * @LastEditTime: 2022-08-11 10:50:37
  * @Description: Footer
 -->
+<script lang="ts" setup></script>
+
 <template>
   <nav text-xl mt-6 inline-flex gap-2>
     <button icon-btn @click="toggleDark()">
