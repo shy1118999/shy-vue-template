@@ -2,7 +2,7 @@
  * @Author: shaohang-shy
  * @Date: 2022-08-10 19:13:08
  * @LastEditors: shaohang-shy
- * @LastEditTime: 2022-08-11 10:50:37
+ * @LastEditTime: 2022-08-31 18:44:41
  * @Description: Footer
 -->
 <script lang="ts" setup></script>
@@ -16,7 +16,7 @@
     <a
       icon-btn i-carbon-logo-github
       rel="noreferrer"
-      href="https://github.com/shy1118/shy-vue-template"
+      href="https://github.com/shy1118999/shy-vue-template"
       target="_blank"
       title="GitHub"
     />
