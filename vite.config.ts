@@ -48,6 +48,8 @@ export default defineConfig({
   ],
 
   // https://github.com/vitest-dev/vitest
+  // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+  // @ts-expect-error
   test: {
     environment: 'jsdom',
   },
