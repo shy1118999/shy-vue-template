@@ -2,16 +2,16 @@
  * @Author: shaohang-shy
  * @Date: 2022-08-10 18:57:59
  * @LastEditors: shaohang-shy
- * @LastEditTime: 2022-08-11 09:23:50
+ * @LastEditTime: 2023-04-06 08:58:46
  * @Description: index page
 -->
 <script setup lang="ts">
-const name = $ref('')
+const name = ref('')
 
 const router = useRouter()
 function toSayHello() {
-  if (name)
-    router.push(`/hello/${encodeURIComponent(name)}`)
+  if (name.value)
+    router.push(`/hello/${encodeURIComponent(name.value)}`)
 }
 </script>
 
