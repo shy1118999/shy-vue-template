@@ -7,6 +7,7 @@ import Pages from 'vite-plugin-pages'
 import Components from 'unplugin-vue-components/vite'
 import AutoImport from 'unplugin-auto-import/vite'
 import Unocss from 'unocss/vite'
+import vueJsx from '@vitejs/plugin-vue-jsx'
 
 export default defineConfig({
   resolve: {
@@ -16,7 +17,7 @@ export default defineConfig({
   },
   plugins: [
     Vue(),
-
+    vueJsx({}),
     // https://github.com/hannoeru/vite-plugin-pages
     Pages(),
 
