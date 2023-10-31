@@ -20,8 +20,8 @@ function toSayHello() {
     <p>Hello World!</p>
     <Counter :initial="0" />
     <div>
-      <input v-model="name" placeholder="What's your name?" class="px-4 py-2 w-100 text-center bg-transparent border border-rounded border-gray-200 dark:border-gray-700 outline-none active:outline-none" @keydown.enter="toSayHello">
-      <button class="btn px-4 py-2 mx-2" :disabled="!name" @click="toSayHello">
+      <input v-model="name" placeholder="What's your name?" class="w-100 border border-gray-200 border-rounded bg-transparent px-4 py-2 text-center outline-none dark:border-gray-700 active:outline-none" @keydown.enter="toSayHello">
+      <button class="mx-2 px-4 py-2 btn" :disabled="!name" @click="toSayHello">
         Go
       </button>
     </div>
