@@ -2,7 +2,6 @@
 
 > clone from [vitesse-lite](https://github.com/antfu/vitesse-lite)
 
-
 ## Features
 
 - ⚡️ [Vue 3](https://github.com/vuejs/core), [Vite 3](https://github.com/vitejs/vite), [pnpm](https://pnpm.io/), [ESBuild](https://github.com/evanw/esbuild) - born with fastness
@@ -22,7 +21,6 @@
 - 🦾 TypeScript, of course
 
 - ☁️ Deploy on Netlify, zero-config
-
 
 ## Pre-packed
 
