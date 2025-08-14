@@ -1,6 +1,8 @@
 import antfu from '@antfu/eslint-config'
 
-export default antfu({
-  unocss: true,
-  vue: true,
-})
+export default antfu(
+  {
+    unocss: true,
+    formatters: true,
+  },
+)

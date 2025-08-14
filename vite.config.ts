@@ -1,4 +1,6 @@
 /// <reference types="vitest" />
+/// <reference types="vite/client" />
+/// <reference types="unplugin-vue-router/client" />
 
 import path from 'node:path'
 import Vue from '@vitejs/plugin-vue'
@@ -6,8 +8,8 @@ import vueJsx from '@vitejs/plugin-vue-jsx'
 import Unocss from 'unocss/vite'
 import AutoImport from 'unplugin-auto-import/vite'
 import Components from 'unplugin-vue-components/vite'
+import VueRouter from 'unplugin-vue-router/vite'
 import { defineConfig } from 'vite'
-import Pages from 'vite-plugin-pages'
 
 export default defineConfig({
   resolve: {
@@ -18,8 +20,8 @@ export default defineConfig({
   plugins: [
     Vue(),
     vueJsx({}),
-    // https://github.com/hannoeru/vite-plugin-pages
-    Pages(),
+    // https://github.com/posva/unplugin-vue-router
+    VueRouter(),
 
     // https://github.com/antfu/unplugin-auto-import
     AutoImport({

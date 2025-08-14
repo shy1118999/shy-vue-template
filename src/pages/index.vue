@@ -21,7 +21,7 @@ function toSayHello() {
     <Counter :initial="0" />
     <div>
       <input v-model="name" placeholder="What's your name?" class="w-100 border border-gray-200 border-rounded bg-transparent px-4 py-2 text-center outline-none dark:border-gray-700 active:outline-none" @keydown.enter="toSayHello">
-      <button class="mx-2 px-4 py-2 btn" :disabled="!name" @click="toSayHello">
+      <button class="mx-2 btn px-4 py-2" :disabled="!name" @click="toSayHello">
         Go
       </button>
     </div>
