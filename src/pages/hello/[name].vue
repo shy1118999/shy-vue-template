@@ -6,7 +6,7 @@
  * @Description: HelloPage
 -->
 <script setup lang="ts">
-const props = defineProps<{ name: string }>()
+const params = useRoute('/hello/[name]').params
 const router = useRouter()
 </script>
 
@@ -14,7 +14,7 @@ const router = useRouter()
   <div>
     <div i-carbon-pedestrian inline-block text-4xl />
     <p>
-      Hi, {{ props.name }}
+      Hi, {{ params.name }}
     </p>
     <p text-sm op50>
       <em>Dynamic route!</em>
